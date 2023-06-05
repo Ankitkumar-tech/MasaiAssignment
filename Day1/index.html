@@ -1,4 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>CSS Assignment</title>
+</head>
+<style>
+    .container {
+  width: 500px;
+  height: 300px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border: 2px solid #333333;
+  box-sizing: border-box;
+}
 
+.sidebar {
+  width: 150px;
+  float: left;
+  background-color: #dddddd;
+  padding: 10px;
+}
 
+.content {
+  overflow: hidden;
+  background-color: #ffffff;
+  padding: 10px;
+}
 
-<h1>I am from msaai school</h1>
+input[type="text"] {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+ul.menu li {
+  font-weight: bold;
+  color: #333333;
+}
+
+p::first-letter {
+  font-size: 24px;
+  color: #990000;
+}
+
+</style>
+<body>
+  <h1 id="main-heading" class="container">Welcome to Our Website</h1>
+  
+  <p class="description container">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  
+  <ul class="menu container">
+    <li class="menu-item container">Item 1</li>
+    <li class="menu-item container">Item 2</li>
+    <li class="menu-item container">Item 3</li>
+    <li class="menu-item container">Item 4</li>
+    <li class="menu-item container">Item 5</li>
+  </ul>
+
+  <div class="container">
+    <div class="sidebar">
+      Sidebar content
+    </div>
+    <div class="content">
+      Content area
+    </div>
+  </div>
+
+  <input type="text" placeholder="Enter text" />
+  
+  <script src="script.js"></script>
+</body>
+</html>
